@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAccountLedger" targetNamespace="http://tempuri.org/dsAccountLedger.xsd" xmlns:mstns="http://tempuri.org/dsAccountLedger.xsd" xmlns="http://tempuri.org/dsAccountLedger.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAccountLedger" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsAccountLedger" msprop:Generator_UserDSName="dsAccountLedger">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAreaWiseCredit" msprop:Generator_TableClassName="dtAreaWiseCreditDataTable" msprop:Generator_TableVarName="tabledtAreaWiseCredit" msprop:Generator_RowChangedName="dtAreaWiseCreditRowChanged" msprop:Generator_TablePropName="dtAreaWiseCredit" msprop:Generator_RowDeletingName="dtAreaWiseCreditRowDeleting" msprop:Generator_RowChangingName="dtAreaWiseCreditRowChanging" msprop:Generator_RowEvHandlerName="dtAreaWiseCreditRowChangeEventHandler" msprop:Generator_RowDeletedName="dtAreaWiseCreditRowDeleted" msprop:Generator_RowClassName="dtAreaWiseCreditRow" msprop:Generator_UserTableName="dtAreaWiseCredit" msprop:Generator_RowEvArgName="dtAreaWiseCreditRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="villageName" msprop:Generator_ColumnVarNameInTable="columnvillageName" msprop:Generator_ColumnPropNameInRow="villageName" msprop:Generator_ColumnPropNameInTable="villageNameColumn" msprop:Generator_UserColumnName="villageName" type="xs:string" minOccurs="0" />
+              <xs:element name="customerName" msprop:Generator_ColumnVarNameInTable="columncustomerName" msprop:Generator_ColumnPropNameInRow="customerName" msprop:Generator_ColumnPropNameInTable="customerNameColumn" msprop:Generator_UserColumnName="customerName" type="xs:string" minOccurs="0" />
+              <xs:element name="customerMobileNo" msprop:Generator_ColumnVarNameInTable="columncustomerMobileNo" msprop:Generator_ColumnPropNameInRow="customerMobileNo" msprop:Generator_ColumnPropNameInTable="customerMobileNoColumn" msprop:Generator_UserColumnName="customerMobileNo" type="xs:string" minOccurs="0" />
+              <xs:element name="crAmount" msprop:Generator_ColumnVarNameInTable="columncrAmount" msprop:Generator_ColumnPropNameInRow="crAmount" msprop:Generator_ColumnPropNameInTable="crAmountColumn" msprop:Generator_UserColumnName="crAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="drAmount" msprop:Generator_ColumnVarNameInTable="columndrAmount" msprop:Generator_ColumnPropNameInRow="drAmount" msprop:Generator_ColumnPropNameInTable="drAmountColumn" msprop:Generator_UserColumnName="drAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="dueAmount" msprop:Generator_ColumnVarNameInTable="columndueAmount" msprop:Generator_ColumnPropNameInRow="dueAmount" msprop:Generator_ColumnPropNameInTable="dueAmountColumn" msprop:Generator_UserColumnName="dueAmount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtCedit" msprop:Generator_TableClassName="dtCeditDataTable" msprop:Generator_TableVarName="tabledtCedit" msprop:Generator_TablePropName="dtCedit" msprop:Generator_RowDeletingName="dtCeditRowDeleting" msprop:Generator_RowChangingName="dtCeditRowChanging" msprop:Generator_RowEvHandlerName="dtCeditRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCeditRowDeleted" msprop:Generator_UserTableName="dtCedit" msprop:Generator_RowChangedName="dtCeditRowChanged" msprop:Generator_RowEvArgName="dtCeditRowChangeEvent" msprop:Generator_RowClassName="dtCeditRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="accountName" msprop:Generator_ColumnVarNameInTable="columnaccountName" msprop:Generator_ColumnPropNameInRow="accountName" msprop:Generator_ColumnPropNameInTable="accountNameColumn" msprop:Generator_UserColumnName="accountName" type="xs:string" minOccurs="0" />
+              <xs:element name="crAmount" msprop:Generator_ColumnVarNameInTable="columncrAmount" msprop:Generator_ColumnPropNameInRow="crAmount" msprop:Generator_ColumnPropNameInTable="crAmountColumn" msprop:Generator_UserColumnName="crAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="drAmount" msprop:Generator_ColumnVarNameInTable="columndrAmount" msprop:Generator_ColumnPropNameInRow="drAmount" msprop:Generator_ColumnPropNameInTable="drAmountColumn" msprop:Generator_UserColumnName="drAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="dueAmount" msprop:Generator_ColumnVarNameInTable="columndueAmount" msprop:Generator_ColumnPropNameInRow="dueAmount" msprop:Generator_ColumnPropNameInTable="dueAmountColumn" msprop:Generator_UserColumnName="dueAmount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsprofitvaluation" targetNamespace="http://tempuri.org/dsprofitvaluation.xsd" xmlns:mstns="http://tempuri.org/dsprofitvaluation.xsd" xmlns="http://tempuri.org/dsprofitvaluation.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsprofitvaluation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsprofitvaluation" msprop:Generator_UserDSName="dsprofitvaluation">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_profitvaluation" msprop:Generator_TableClassName="tbl_profitvaluationDataTable" msprop:Generator_TableVarName="tabletbl_profitvaluation" msprop:Generator_RowChangedName="tbl_profitvaluationRowChanged" msprop:Generator_TablePropName="tbl_profitvaluation" msprop:Generator_RowDeletingName="tbl_profitvaluationRowDeleting" msprop:Generator_RowChangingName="tbl_profitvaluationRowChanging" msprop:Generator_RowEvHandlerName="tbl_profitvaluationRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_profitvaluationRowDeleted" msprop:Generator_RowClassName="tbl_profitvaluationRow" msprop:Generator_UserTableName="tbl_profitvaluation" msprop:Generator_RowEvArgName="tbl_profitvaluationRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="itemName" msprop:Generator_ColumnVarNameInTable="columnitemName" msprop:Generator_ColumnPropNameInRow="itemName" msprop:Generator_ColumnPropNameInTable="itemNameColumn" msprop:Generator_UserColumnName="itemName" type="xs:string" minOccurs="0" />
+              <xs:element name="unitBy" msprop:Generator_ColumnVarNameInTable="columnunitBy" msprop:Generator_ColumnPropNameInRow="unitBy" msprop:Generator_ColumnPropNameInTable="unitByColumn" msprop:Generator_UserColumnName="unitBy" type="xs:string" minOccurs="0" />
+              <xs:element name="batchNo" msprop:Generator_ColumnVarNameInTable="columnbatchNo" msprop:Generator_ColumnPropNameInRow="batchNo" msprop:Generator_ColumnPropNameInTable="batchNoColumn" msprop:Generator_UserColumnName="batchNo" type="xs:string" minOccurs="0" />
+              <xs:element name="currentStock" msprop:Generator_ColumnVarNameInTable="columncurrentStock" msprop:Generator_ColumnPropNameInRow="currentStock" msprop:Generator_ColumnPropNameInTable="currentStockColumn" msprop:Generator_UserColumnName="currentStock" type="xs:double" minOccurs="0" />
+              <xs:element name="MRP" msprop:Generator_ColumnVarNameInTable="columnMRP" msprop:Generator_ColumnPropNameInRow="MRP" msprop:Generator_ColumnPropNameInTable="MRPColumn" msprop:Generator_UserColumnName="MRP" type="xs:double" minOccurs="0" />
+              <xs:element name="MRPValuation" msprop:Generator_ColumnVarNameInTable="columnMRPValuation" msprop:Generator_ColumnPropNameInRow="MRPValuation" msprop:Generator_ColumnPropNameInTable="MRPValuationColumn" msprop:Generator_UserColumnName="MRPValuation" type="xs:double" minOccurs="0" />
+              <xs:element name="salesCashRate" msprop:Generator_ColumnVarNameInTable="columnsalesCashRate" msprop:Generator_ColumnPropNameInRow="salesCashRate" msprop:Generator_ColumnPropNameInTable="salesCashRateColumn" msprop:Generator_UserColumnName="salesCashRate" type="xs:double" minOccurs="0" />
+              <xs:element name="SalesValuation" msprop:Generator_ColumnVarNameInTable="columnSalesValuation" msprop:Generator_ColumnPropNameInRow="SalesValuation" msprop:Generator_ColumnPropNameInTable="SalesValuationColumn" msprop:Generator_UserColumnName="SalesValuation" type="xs:double" minOccurs="0" />
+              <xs:element name="purchaseRate" msprop:Generator_ColumnVarNameInTable="columnpurchaseRate" msprop:Generator_ColumnPropNameInRow="purchaseRate" msprop:Generator_ColumnPropNameInTable="purchaseRateColumn" msprop:Generator_UserColumnName="purchaseRate" type="xs:double" minOccurs="0" />
+              <xs:element name="purchaseValuation" msprop:Generator_ColumnVarNameInTable="columnpurchaseValuation" msprop:Generator_ColumnPropNameInRow="purchaseValuation" msprop:Generator_ColumnPropNameInTable="purchaseValuationColumn" msprop:Generator_UserColumnName="purchaseValuation" type="xs:double" minOccurs="0" />
+              <xs:element name="MRPProfitEstimation" msprop:Generator_ColumnVarNameInTable="columnMRPProfitEstimation" msprop:Generator_ColumnPropNameInRow="MRPProfitEstimation" msprop:Generator_ColumnPropNameInTable="MRPProfitEstimationColumn" msprop:Generator_UserColumnName="MRPProfitEstimation" type="xs:double" minOccurs="0" />
+              <xs:element name="SalesProfitEstimation" msprop:Generator_ColumnVarNameInTable="columnSalesProfitEstimation" msprop:Generator_ColumnPropNameInRow="SalesProfitEstimation" msprop:Generator_ColumnPropNameInTable="SalesProfitEstimationColumn" msprop:Generator_UserColumnName="SalesProfitEstimation" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

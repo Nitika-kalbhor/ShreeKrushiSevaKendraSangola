@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dSBalanceSheer" targetNamespace="http://tempuri.org/dSBalanceSheer.xsd" xmlns:mstns="http://tempuri.org/dSBalanceSheer.xsd" xmlns="http://tempuri.org/dSBalanceSheer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dSBalanceSheer" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dSBalanceSheer" msprop:Generator_UserDSName="dSBalanceSheer">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtProfitLoss" msprop:Generator_TableClassName="dtProfitLossDataTable" msprop:Generator_TableVarName="tabledtProfitLoss" msprop:Generator_RowChangedName="dtProfitLossRowChanged" msprop:Generator_TablePropName="dtProfitLoss" msprop:Generator_RowDeletingName="dtProfitLossRowDeleting" msprop:Generator_RowChangingName="dtProfitLossRowChanging" msprop:Generator_RowEvHandlerName="dtProfitLossRowChangeEventHandler" msprop:Generator_RowDeletedName="dtProfitLossRowDeleted" msprop:Generator_RowClassName="dtProfitLossRow" msprop:Generator_UserTableName="dtProfitLoss" msprop:Generator_RowEvArgName="dtProfitLossRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="crPerticular" msprop:Generator_ColumnVarNameInTable="columncrPerticular" msprop:Generator_ColumnPropNameInRow="crPerticular" msprop:Generator_ColumnPropNameInTable="crPerticularColumn" msprop:Generator_UserColumnName="crPerticular" type="xs:string" minOccurs="0" />
+              <xs:element name="crAmount" msprop:Generator_ColumnVarNameInTable="columncrAmount" msprop:Generator_ColumnPropNameInRow="crAmount" msprop:Generator_ColumnPropNameInTable="crAmountColumn" msprop:Generator_UserColumnName="crAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="drPurticular" msprop:Generator_ColumnVarNameInTable="columndrPurticular" msprop:Generator_ColumnPropNameInRow="drPurticular" msprop:Generator_ColumnPropNameInTable="drPurticularColumn" msprop:Generator_UserColumnName="drPurticular" type="xs:string" minOccurs="0" />
+              <xs:element name="drAmount" msprop:Generator_ColumnVarNameInTable="columndrAmount" msprop:Generator_ColumnPropNameInRow="drAmount" msprop:Generator_ColumnPropNameInTable="drAmountColumn" msprop:Generator_UserColumnName="drAmount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtBalanceSheet" msprop:Generator_TableClassName="dtBalanceSheetDataTable" msprop:Generator_TableVarName="tabledtBalanceSheet" msprop:Generator_TablePropName="dtBalanceSheet" msprop:Generator_RowDeletingName="dtBalanceSheetRowDeleting" msprop:Generator_RowChangingName="dtBalanceSheetRowChanging" msprop:Generator_RowEvHandlerName="dtBalanceSheetRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBalanceSheetRowDeleted" msprop:Generator_UserTableName="dtBalanceSheet" msprop:Generator_RowChangedName="dtBalanceSheetRowChanged" msprop:Generator_RowEvArgName="dtBalanceSheetRowChangeEvent" msprop:Generator_RowClassName="dtBalanceSheetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LiabilitesaccountName" msprop:Generator_ColumnVarNameInTable="columnLiabilitesaccountName" msprop:Generator_ColumnPropNameInRow="LiabilitesaccountName" msprop:Generator_ColumnPropNameInTable="LiabilitesaccountNameColumn" msprop:Generator_UserColumnName="LiabilitesaccountName" type="xs:string" minOccurs="0" />
+              <xs:element name="cr" msprop:Generator_ColumnVarNameInTable="columncr" msprop:Generator_ColumnPropNameInRow="cr" msprop:Generator_ColumnPropNameInTable="crColumn" msprop:Generator_UserColumnName="cr" type="xs:double" minOccurs="0" />
+              <xs:element name="AssetaccountName" msprop:Generator_ColumnVarNameInTable="columnAssetaccountName" msprop:Generator_ColumnPropNameInRow="AssetaccountName" msprop:Generator_ColumnPropNameInTable="AssetaccountNameColumn" msprop:Generator_UserColumnName="AssetaccountName" type="xs:string" minOccurs="0" />
+              <xs:element name="dr" msprop:Generator_ColumnVarNameInTable="columndr" msprop:Generator_ColumnPropNameInRow="dr" msprop:Generator_ColumnPropNameInTable="drColumn" msprop:Generator_UserColumnName="dr" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

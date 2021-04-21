@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCheckInvoice" targetNamespace="http://tempuri.org/dsCheckInvoice.xsd" xmlns:mstns="http://tempuri.org/dsCheckInvoice.xsd" xmlns="http://tempuri.org/dsCheckInvoice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCheckInvoice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCheckInvoice" msprop:Generator_UserDSName="dsCheckInvoice">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCheckInvoice" msprop:Generator_TableClassName="dtCheckInvoiceDataTable" msprop:Generator_TableVarName="tabledtCheckInvoice" msprop:Generator_TablePropName="dtCheckInvoice" msprop:Generator_RowDeletingName="dtCheckInvoiceRowDeleting" msprop:Generator_RowChangingName="dtCheckInvoiceRowChanging" msprop:Generator_RowEvHandlerName="dtCheckInvoiceRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCheckInvoiceRowDeleted" msprop:Generator_UserTableName="dtCheckInvoice" msprop:Generator_RowChangedName="dtCheckInvoiceRowChanged" msprop:Generator_RowEvArgName="dtCheckInvoiceRowChangeEvent" msprop:Generator_RowClassName="dtCheckInvoiceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InvoiceIdPesticide" msprop:Generator_ColumnVarNameInTable="columnInvoiceIdPesticide" msprop:Generator_ColumnPropNameInRow="InvoiceIdPesticide" msprop:Generator_ColumnPropNameInTable="InvoiceIdPesticideColumn" msprop:Generator_UserColumnName="InvoiceIdPesticide" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceIdFertilizer" msprop:Generator_ColumnVarNameInTable="columnInvoiceIdFertilizer" msprop:Generator_ColumnPropNameInRow="InvoiceIdFertilizer" msprop:Generator_ColumnPropNameInTable="InvoiceIdFertilizerColumn" msprop:Generator_UserColumnName="InvoiceIdFertilizer" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceIdSeeds" msprop:Generator_ColumnVarNameInTable="columnInvoiceIdSeeds" msprop:Generator_ColumnPropNameInRow="InvoiceIdSeeds" msprop:Generator_ColumnPropNameInTable="InvoiceIdSeedsColumn" msprop:Generator_UserColumnName="InvoiceIdSeeds" type="xs:string" minOccurs="0" />
+              <xs:element name="salesInvoiceId" msprop:Generator_ColumnVarNameInTable="columnsalesInvoiceId" msprop:Generator_ColumnPropNameInRow="salesInvoiceId" msprop:Generator_ColumnPropNameInTable="salesInvoiceIdColumn" msprop:Generator_UserColumnName="salesInvoiceId" type="xs:string" minOccurs="0" />
+              <xs:element name="FinancialYearID" msprop:Generator_ColumnVarNameInTable="columnFinancialYearID" msprop:Generator_ColumnPropNameInRow="FinancialYearID" msprop:Generator_ColumnPropNameInTable="FinancialYearIDColumn" msprop:Generator_UserColumnName="FinancialYearID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
