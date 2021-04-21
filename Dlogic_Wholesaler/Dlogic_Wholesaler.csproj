@@ -304,21 +304,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CrystalReport\RptCustomerBill.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RptCustomerBill.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CrystalReport\RptCustomerBillEnglish.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RptCustomerBillEnglish.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CrystalReport\RptCustomerBillEnglishNew.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RptCustomerBillEnglishNew.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CrystalReport\RptCustomerBillEnglishWholsale1.cs">
@@ -996,10 +984,7 @@
       <DependentUpon>FrmTempSaleReturnTemp.cs</DependentUpon>
     </Compile>
     <Compile Include="TempFroms\RptTempCustomerBillEnglish.cs">
-      <DependentUpon>RptTempCustomerBillEnglish.rpt</DependentUpon>
-      <AutoGen>True</AutoGen>
       <SubType>Component</SubType>
-      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="TempFroms\RptTempCustomerBillEnglishNew.cs">
       <AutoGen>True</AutoGen>
@@ -1188,15 +1173,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport\RptCustomerBill.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptCustomerBill.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport\RptCustomerBillEnglish.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptCustomerBillEnglish.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport\RptCustomerBillEnglishNew.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptCustomerBillEnglishNew.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport\RptCustomerBillEnglishWholsale.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1502,7 +1484,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TempFroms\RptTempCustomerBillEnglish.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptTempCustomerBillEnglish.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TempFroms\RptTempCustomerBillEnglishNew.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

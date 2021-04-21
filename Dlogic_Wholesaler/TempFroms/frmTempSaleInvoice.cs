@@ -1865,7 +1865,7 @@ namespace Dlogic_Wholesaler.TempFroms
                         {
                             if (Utility.Langn == "English")
                             {
-                                MessageBox.Show("Current Sale Bill Saved successfully..", "Save", MessageBoxButtons.OK);
+                                MessageBox.Show("Current Sale Chalan Saved successfully..", "Save", MessageBoxButtons.OK);
                             }
                             else
                             {
@@ -1887,7 +1887,7 @@ namespace Dlogic_Wholesaler.TempFroms
                         }
                         else
                         {
-                            dr = MessageBox.Show("तुम्हाला सदर चलन डिलीट करायाचे आहे काय?", "Confirmation", MessageBoxButtons.YesNo);
+                            dr = MessageBox.Show("तुम्हाला सदर बिल डिलीट करायाचे आहे काय?", "Confirmation", MessageBoxButtons.YesNo);
                         }
                         if (dr == DialogResult.Yes)
                         {
@@ -1906,7 +1906,7 @@ namespace Dlogic_Wholesaler.TempFroms
                             }
                             else
                             {
-                                MessageBox.Show("सदर चलन यशस्वीरित्या डिलीट केले गेले आहे ..!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("सदर बिल यशस्वीरित्या डिलीट केले गेले आहे ..!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             btnnew_Click(sender, e);
                         }
@@ -1987,8 +1987,9 @@ namespace Dlogic_Wholesaler.TempFroms
                     }
                 }
                 //  RptTempCustomerBill rpt = new RptTempCustomerBill();
-              //  RptTempCustomerBillEnglish rpt = new RptTempCustomerBillEnglish();
-                RptTempCustomerBillEnglishNew rpt = new RptTempCustomerBillEnglishNew();
+                // RptTempCustomerBillEnglishNew rpt = new RptTempCustomerBillEnglishNew();
+                RptTempCustomerBillEnglish rpt = new RptTempCustomerBillEnglish();
+              
                 RptSaleBill frm = new RptSaleBill();
                 //  rpt.SetDataSource(dtSale);
                 rpt.Database.Tables[0].SetDataSource(dtSale);

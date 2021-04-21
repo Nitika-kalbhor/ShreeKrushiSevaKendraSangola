@@ -1973,11 +1973,11 @@ namespace Dlogic_Wholesaler.Forms
                         DialogResult dr = DialogResult.No;
                         if (Utility.Langn == "English")
                         {
-                            dr = MessageBox.Show("Do you want to delete this Chalan?", "Confirmation", MessageBoxButtons.YesNo);
+                            dr = MessageBox.Show("Do you want to delete this Bill?", "Confirmation", MessageBoxButtons.YesNo);
                         }
                         else
                         {
-                            dr = MessageBox.Show("तुम्हाला सदर चलन डिलीट करायाचे आहे काय?", "Confirmation", MessageBoxButtons.YesNo);
+                            dr = MessageBox.Show("तुम्हाला सदर बिल डिलीट करायाचे आहे काय?", "Confirmation", MessageBoxButtons.YesNo);
                         }
                         if (dr == DialogResult.Yes)
                         {
@@ -1994,11 +1994,11 @@ namespace Dlogic_Wholesaler.Forms
                            
                             if (Utility.Langn == "English")
                             {
-                                MessageBox.Show("Current Chalan deleted successfully ..!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("Current Bill deleted successfully ..!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             else
                             {
-                                MessageBox.Show("सदर चलन यशस्वीरित्या डिलीट केले गेले आहे ..!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("सदर बिल यशस्वीरित्या डिलीट केले गेले आहे ..!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             btnnew_Click(sender, e);
                         }
@@ -2168,26 +2168,17 @@ namespace Dlogic_Wholesaler.Forms
                     }
                 }
                 else
-                {                    
-                     if (Utility.Langn == "English")
-                     {
-                         amountInWord = Utility.NumberToWordMarathi(Convert.ToInt64(dtSale.Rows[0]["netBillAmount"].ToString())) + " " + "Rupees /- Only.";
-                     }
-                     else
-                     {
-                         amountInWord = Utility.NumberToWordMarathi(Convert.ToInt64(dtSale.Rows[0]["netBillAmount"].ToString())) + " " + "रुपये /- फक्त.";
-                     }
+                {                
+                     amountInWord = Utility.NumberToWordMarathi(Convert.ToInt64(dtSale.Rows[0]["netBillAmount"].ToString())) + " " + "रुपये /- फक्त.";
+                 
                     dtSale.Columns.Add(new DataColumn("amountInWord", typeof(string)));
 
                     foreach (DataRow dr in dtSale.Rows)
                     {
                         dr["amountInWord"] = amountInWord;
-                    }
-                    //RptCustomerBill rpt = new RptCustomerBill();
-                    //RptSaleBill frm = new RptSaleBill();
-                    RptCustomerBillEnglishNew rpt = new RptCustomerBillEnglishNew();
+                    }                   
+                    RptCustomerBill rpt = new RptCustomerBill();
                     RptSaleBill frm = new RptSaleBill();
-
                     //rpt.SetDataSource(dtSale);
                     rpt.Database.Tables[0].SetDataSource(dtSale);
                     rpt.Database.Tables[1].SetDataSource(Utility.dtGenericBillInfo);
